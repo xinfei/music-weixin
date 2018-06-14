@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/find/index",
+    "pages/now/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4ba6ee",
+    "navigationBarTitleText": "Mr信的音乐小栈",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#4ba6ee",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "backgroundColor":"#2A2C2E",
+    "color": "#a7a7a7",
+    "selectedColor": "#ffffff",
+    "list": [{
+      "iconPath":"./image/find.png",
+      "selectedIconPath":"./image/find1.png",
+      "pagePath":"pages/find/index",
+      "text": "发现音乐"
+    }, {
+      "iconPath":"./image/now.png",
+      "selectedIconPath":"./image/now1.png",
+      "pagePath": "pages/now/index",
+      "text": "正在播放"
+    }]
+  }
+}
